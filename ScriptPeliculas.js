@@ -2,7 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const questionContainer = document.getElementById('question-container');
     const nextButton = document.getElementById('next-btn');
     const resultContainer = document.getElementById('result');
-
+    const correctCountElement = document.getElementById('correct-count');
+    const incorrectCountElement = document.getElementById('incorrect-count');
+    
+    let correctCount = 0;
+    let incorrectCount = 0;
     const questions = [
         {
             question: "Who directed the movie 'Titanic'?",
