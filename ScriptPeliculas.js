@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'Star Wars: Episode IV - A New Hope'?",
-            answers: [ "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino","George Lucas"],
+            answers: ["George Lucas", "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
             correctAnswer: "George Lucas"
         },
         {
@@ -135,36 +135,13 @@ document.addEventListener('DOMContentLoaded', function () {
             resultContainer.textContent = "Quiz completed!";
             resultContainer.style.display = 'block';
             nextButton.style.display = 'none';
+            // Guardar los datos en local storage
+            localStorage.setItem('correctCount', correctCount);
+            localStorage.setItem('incorrectCount', incorrectCount);
+            
             window.location.href = "results.html";
         }
     });
-    const ctx = document.getElementById('results-chart').getContext('2d');
-    const resultsChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: ['Correct', 'Incorrect'],
-            datasets: [{
-                label: 'Results',
-                data: [correctCount, totalQuestions - correctCount],
-                backgroundColor: [
-                    'green',
-                    'red',
-                ],
-                borderColor: [
-                    'green',
-                    'red',
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-
     displayQuestion(currentQuestionIndex);
+
 });
