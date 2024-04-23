@@ -106,9 +106,10 @@ form input[type="submit"]:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding:20%;
 }
 
 .question button {
+    width: 20%;
+    height: 40px;
     margin: 5px;
 }
