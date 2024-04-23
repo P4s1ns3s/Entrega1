@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let correctCount = 0;
     let incorrectCount = 0;
+   
     const questions = [
         {
             question: "Who directed the movie 'Titanic'?",
@@ -81,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     ];
     
-
+    let totalQuestions= questions.length;
     let currentQuestionIndex = 0;
 
     function displayQuestion(index) {
