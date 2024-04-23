@@ -110,9 +110,13 @@ document.addEventListener('DOMContentLoaded', function () {
             resultContainer.textContent = "Correct!";
             resultContainer.style.display = 'block';
             nextButton.style.display = 'block';
+            correctCount++;
+            correctCountElement.textContent = correctCount;
         } else {
             resultContainer.textContent = "Incorrect. Try again!";
             resultContainer.style.display = 'block';
+            incorrectCount++;
+            incorrectCountElement.textContent = incorrectCount;
         }
     }
 
