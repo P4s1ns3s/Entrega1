@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const questions = [
         {
             question: "Who directed the movie 'Titanic'?",
-            answers: ["James Cameron", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
+            answers: ["Martin Scorsese", "Steven Spielberg", "Christopher Nolan","James Cameron"],
             correctAnswer: "James Cameron"
         },
         {
             question: "In which movie does Marlon Brando play a leading role?",
-            answers: ["The Godfather", "Toy Story", "Star Wars", "Avatar"],
+            answers: [ "Toy Story","The Godfather", "Star Wars", "Avatar"],
             correctAnswer: "The Godfather"
         },
         {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'The Lord of the Rings: The Fellowship of the Ring'?",
-            answers: ["Peter Jackson", "James Cameron", "Quentin Tarantino", "Christopher Nolan"],
+            answers: [ "James Cameron", "Quentin Tarantino", "Peter Jackson", "Christopher Nolan"],
             correctAnswer: "Peter Jackson"
         },
         {
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'The Avengers'?",
-            answers: ["Joss Whedon", "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
+            answers: ["Martin Scorsese","Joss Whedon", "Steven Spielberg", "Quentin Tarantino"],
             correctAnswer: "Joss Whedon"
         },
         {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'Good Will Hunting'?",
-            answers: ["Gus Van Sant", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
+            answers: [ "Martin Scorsese", "Steven Spielberg", "Christopher Nolan","Gus Van Sant"],
             correctAnswer: "Gus Van Sant"
         },
         {
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'The Dark Knight'?",
-            answers: ["Christopher Nolan", "Martin Scorsese", "Steven Spielberg", "Quentin Tarantino"],
+            answers: ["Martin Scorsese", "Steven Spielberg", "Quentin Tarantino","Christopher Nolan"],
             correctAnswer: "Christopher Nolan"
         },
         {
@@ -66,12 +66,12 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             question: "Who directed the movie 'Planet of the Apes'?",
-            answers: ["Franklin J. Schaffner", "Stanley Kubrick", "James Cameron", "Martin Scorsese"],
+            answers: ["Stanley Kubrick","Franklin J. Schaffner",  "James Cameron", "Martin Scorsese"],
             correctAnswer: "Franklin J. Schaffner"
         },
         {
             question: "Who directed the movie 'Star Wars: Episode IV - A New Hope'?",
-            answers: ["George Lucas", "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino"],
+            answers: [ "Steven Spielberg", "Martin Scorsese", "Quentin Tarantino","George Lucas"],
             correctAnswer: "George Lucas"
         },
         {
