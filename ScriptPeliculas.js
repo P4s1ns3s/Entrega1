@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultContainer = document.getElementById('result');
     const correctCountElement = document.getElementById('correct-count');
     const incorrectCountElement = document.getElementById('incorrect-count');
-    
+
     let correctCount = 0;
     let incorrectCount = 0;
     const questions = [
@@ -134,8 +134,10 @@ document.addEventListener('DOMContentLoaded', function () {
             resultContainer.textContent = "Quiz completed!";
             resultContainer.style.display = 'block';
             nextButton.style.display = 'none';
+            window.location.href = "results.html";
         }
     });
+
 
     displayQuestion(currentQuestionIndex);
 });
