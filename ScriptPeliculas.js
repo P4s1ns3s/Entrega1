@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
             answers: ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
             correctAnswer: "Quentin Tarantino"
         }
+    
     ];
     
 
