@@ -9,7 +9,36 @@ document.addEventListener('DOMContentLoaded', function () {
             answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
             correctAnswer: "Christopher Nolan"
         },
-        // Puedes agregar más preguntas aquí
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
+        {
+            question: "Who directed the movie 'Inception'?",
+            answers: ["Christopher Nolan", "Steven Spielberg", "Quentin Tarantino", "Martin Scorsese"],
+            correctAnswer: "Christopher Nolan"
+        },
     ];
 
     let currentQuestionIndex = 0;
