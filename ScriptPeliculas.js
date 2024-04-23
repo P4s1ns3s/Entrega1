@@ -137,7 +137,33 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = "results.html";
         }
     });
-
+    const ctx = document.getElementById('results-chart').getContext('2d');
+    const resultsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Correct', 'Incorrect'],
+            datasets: [{
+                label: 'Results',
+                data: [correctCount, totalQuestions - correctCount],
+                backgroundColor: [
+                    'green',
+                    'red',
+                ],
+                borderColor: [
+                    'green',
+                    'red',
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 
     displayQuestion(currentQuestionIndex);
 });
