@@ -120,7 +120,8 @@ form input[type="submit"]:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 50%; /* Ancho del resultado */
+    height: 25px;
+    width: 25%; /* Ancho del resultado */
     margin: 0 auto; /* Centrar horizontalmente */
 }
 .question button {
@@ -140,4 +141,9 @@ form input[type="submit"]:hover {
 #score span {
     font-weight: bold;
     color: #007bff;
+}
+canvas {
+    max-height: 65vh; /* Establece el máximo alto como el 80% del alto de la pantalla */
+    width: auto; /* Para mantener la relación de aspecto */
+    max-width: 100%; /* Opcional: Asegura que el canvas no exceda el ancho de la pantalla */
 }
