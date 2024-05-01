@@ -96,25 +96,48 @@ form input[type="submit"]:hover {
 }
 @media only screen and (max-width: 768px) {
     .movie-item {
-        width: 30%; /* Displaying two items per row */
+        width: 30%; 
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .movie-item {
-        width: 18%; /* Displaying five items per row */
+        width: 18%; 
     }
 }
 
-  /* Estilos adicionales para centrar los botones */
 #question-container {
+    width: 100%;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+#next-btn, #result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%; /* Ancho del resultado */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
 .question button {
-    width: 20%;
+    width: 45%;
     height: 40px;
     margin: 5px;
+}
+
+#score {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#score p {
+    margin: 5px 0;
+}
+#score span {
+    font-weight: bold;
+    color: #007bff;
 }
